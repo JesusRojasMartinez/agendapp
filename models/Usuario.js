@@ -21,5 +21,5 @@ const esquemaUsuario = new mongoose.Schema(
   },
   { timestamps: true }
 );
-
+// creando modelo de usaurio
 export const Usuario = mongoose.model("Usuario", esquemaUsuario);
